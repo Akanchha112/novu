@@ -32,3 +32,4 @@ export * from './telnyx/telnyx.interface';
 export * from './telnyx/telnyx.provider';
 export * from './termii/termii.provider';
 export * from './twilio/twilio.provider';
+export * from './webhost-sms/webhost-sms.provider';

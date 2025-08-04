@@ -45,6 +45,7 @@ export enum CredentialsKeyEnum {
   channelId = 'channelId',
   phoneNumberIdentification = 'phoneNumberIdentification',
   ApiVersion = 'apiVersion',
+  PeId='peid',
 }
 
 export enum EmailProviderIdEnum {
@@ -105,6 +106,7 @@ export enum SmsProviderIdEnum {
   Mobishastra = 'mobishastra',
   AfroSms = 'afro-message',
   IMedia = 'imedia',
+  WebhostSms = 'webhost-sms',
 }
 
 export enum ChatProviderIdEnum {

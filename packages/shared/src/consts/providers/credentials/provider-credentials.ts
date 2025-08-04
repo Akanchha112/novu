@@ -1223,3 +1223,38 @@ export const afroSmsConfig: IConfigCredentials[] = [
   },
   ...smsConfigBase,
 ];
+
+
+
+export const webhostSmsConfig: IConfigCredentials[] = [
+  {
+    key: CredentialsKeyEnum.BaseUrl,
+    displayName: 'Base URL',
+    description: 'Base URL of the Webhost SMS API',
+    type: 'text',
+    required: true,
+  },
+  {
+    key: CredentialsKeyEnum.ApiKey,
+    displayName: 'API Key',
+    description: 'Your API Key for Webhost SMS',
+    type: 'text',
+    required: true,
+  },
+  {
+    key: CredentialsKeyEnum.From,
+    displayName: 'Sender ID',
+    description: 'Sender ID to show in SMS',
+    type: 'text',
+    required: true,
+  },
+  {
+    key: CredentialsKeyEnum.PeId,
+    displayName: 'PE ID',
+    description: 'Principal Entity ID for DLT compliance',
+    type: 'text',
+    required: true,
+  },
+  
+];
+

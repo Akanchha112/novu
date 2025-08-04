@@ -33,6 +33,7 @@ import {
   telnyxConfig,
   termiiConfig,
   twilioConfig,
+  webhostSmsConfig,
 } from '../credentials';
 import { IProviderConfig } from '../provider.interface';
 
@@ -304,5 +305,16 @@ export const smsProviders: IProviderConfig[] = [
     credentials: iMediaConfig,
     docReference: '',
     logoFileName: { light: 'imedia.png', dark: 'imedia.png' },
+  },
+  {
+    id: SmsProviderIdEnum.WebhostSms,
+    displayName: 'Webhost SMS',
+    channel: ChannelTypeEnum.SMS,
+    credentials: webhostSmsConfig,
+    docReference: 'https://webhost.in/docs/sms-api', // Replace with actual if available
+    logoFileName: {
+      light: 'webhost-sms.svg',
+      dark: 'webhost-sms.svg',
+    },
   },
 ];

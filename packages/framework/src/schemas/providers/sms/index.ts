@@ -38,4 +38,5 @@ export const smsProviderSchemas = {
   twilio: twilioProviderSchemas,
   'afro-message': genericProviderSchemas,
   imedia: genericProviderSchemas,
+  'webhost-sms': genericProviderSchemas,
 } as const satisfies Record<SmsProviderIdEnum, { output: JsonSchema }>;

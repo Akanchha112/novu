@@ -156,6 +156,7 @@ export enum SmsProviderIdEnum {
   Mobishastra = 'mobishastra',
   AfroSms = 'afro-message',
   IMedia = 'imedia',
+  WebhostSms = 'webhost-sms',
 }
 
 export enum ChatProviderIdEnum {
